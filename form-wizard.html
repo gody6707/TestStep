@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Token Time</title>
+
+  <!-- Bootstrap 4.0-->
+  <link rel="stylesheet" href="assets/vendor_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- Bootstrap extend-->
+  <link rel="stylesheet" href="css/bootstrap-extend.css">
+
+  <!--alerts CSS -->
+  <link href="assets/vendor_components/sweetalert/sweetalert.css" rel="stylesheet" type="text/css">
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="css/master_style.css">
+
+  <!-- Unique_Admin skins -->
+  <link rel="stylesheet" href="css/skins/_all-skins.css">
+  
+  <link rel="stylesheet" href="css/no-menu.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body class="hold-transition skin-blue-light sidebar-mini">
+  <div class="wrapper">
+
+    <header class="main-header">
+      <!-- Logo -->
+      <a href="index.html" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <b class="logo-mini">
+                    <span class="light-logo"><img src="images/logo-token.jpg" alt="logo"></span>
+                </b>
+        <!-- logo for regular state and mobile devices -->
+
+      </a>
+      <!-- Header Navbar -->
+
+    </header>
+
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+      <!-- sidebar -->
+      <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <div class="user-panel">
+          <div class="ulogo">
+            <a href="index.html">
+              <!-- logo for regular state and mobile devices -->
+              <img src="images/logo-token.jpg" alt="logo" class="light-logo">
+            </a>
+          </div>
+          <div class="image">
+            <img src="images/user2-160x160.jpg" class="rounded-circle" alt="User Image">
+          </div>
+          <div class="info">
+            <p>Janette Doe</p>
+          </div>
+        </div>
+        <!-- sidebar menu -->
+        <ul class="sidebar-menu" data-widget="tree">
+          <li class="nav-devider"></li>
+
+         <li class="treeview active"><a> <i
+                        class="fa fa-handshake-o"></i> <span>Project</span> <span
+                        class="pull-right-container"> <i
+                            class="fa fa-angle-right pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="menuItem" value="project_1"><a>Project 1</a></li>
+                    <li class="highlighted menuItem" value=""><a> <i
+                                class="fa fa-plus"></i>Add Project
+                        </a></li>
+                </ul>
+            </li>
+          <li>
+            <a href="#">
+                      <i class="fa fa-paper-plane"></i> <span>Contact us</span>
+                      <span class="pull-right-container">
+                        <i class="fa fa-angle-right pull-right"></i>
+                      </span>
+                    </a>
+          </li>
+
+
+        </ul>
+      </section>
+    </aside>
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+
+        <!-- Sidebar toggle button-->
+        <h1>
+            Project
+        </h1>
+        <div class="mobile-menu right">
+        </div>
+        <div class="mobile-menu left">
+            <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+        </div>
+    </section>
+    <section class="content">
+
+        <div class="nav-tabs-custom">
+            <ul class="nav nav-tabs">
+                <li><a class="active show" href="#step_1" id="tap_step1" data-toggle="tab">Start</a></li>
+                <li><a href="#step_2" data-toggle="tab" id="tap_step2" class="">Overview & background</a></li>
+                <li><a href="#step_3" data-toggle="tab" id="tap_step3" class="">Token Model</a></li>
+                <li><a href="#step_4" data-toggle="tab" id="tap_step4" class="">Token Technical</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane  active show" id="step_1">
+                    <!-- Validation wizard -->
+                    <div class="box box-default">
+                        <div class="box-body wizard-content">
+                            <form action="#" class="validation-wizard wizard-circle" id="wizard1">
+                                <!-- Step 1 -->
+                                <h6>Start</h6>
+                                <section>
+                                    <div class='row'>
+                                        <div class='col-md-12'>
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_1_no_1">Are you an existing business that would like to crowdfund its next funding round or a new idea looking for fresh funding?</label>
+                                                <div class="form-group">
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input class="form-check-input" type="radio" id="radio_question_1_no_1" name="question_1_no_1" value="We are a new idea">
+                                                            <label for="radio_question_1_no_1"> We are a new idea </label>
+                                                        </label>
+                                                    </div>
+                                                    <div class='col-md-12'>
+                                                        <div class="form-group">
+                                                            <label class="control-label">What is a new idea?</label><br>- Not incorporated and no fundraising rounds before<br> - No
+                                                            revenue has been generated through the core business
+                                                            <br> - Concept could be ready to be executed<br> - Working on
+                                                            an MVP or alpha release
+                                                            <br>
+                                                            <!-- <div class="alert alert-danger" [hidden]="firstname.invalid" [hidden]="firstname.valid">First Name is required</div> -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="radio">
+                                                        <label>
+                                                    <input class="form-check-input" type="radio" id="radio_question_1_no_2"  name="question_1_no_1"value="We are an existing business">
+                                                    <label for="radio_question_1_no_2"> We are an existing business</label>
+                                                        </label>
+                                                    </div>
+                                                    <div class='col-md-12'>
+                                                        <div class="form-group">
+                                                            <label class="control-label">What is an existing business?</label><br>                                                            - Company incorporated and operational already<br> - Fundraised
+                                                            before via a traditional fundraising vehicle (VC, self-funded,
+                                                            PE, etc)<br> - Generating revenue with the core business (related
+                                                            to the ICO)<br> - Excluded are: concepts, ideas, non-related
+                                                            revenue
+                                                            <br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Step 2 -->
+                                <h6>Disclaimer of Liability</h6>
+                                <section>
+                                    <h1>Coming Soon!!</h1>
+                                </section>
+
+                                <!-- Step 3 -->
+                                <h6>ABSTRACT</h6>
+                                <section>
+                                    <h1>Coming Soon!!</h1>
+                                </section>
+                            </form>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                </div>
+                <!-- /.tab-pane -->
+                <div class="tab-pane" id="step_2">
+                    <!-- Validation wizard -->
+                    <div class="box box-default">
+                        <div class="box-body wizard-content">
+                            <form action="#" class="validation-wizard2 wizard-circle" id="wizard2">
+
+                                 <!-- Step 4 -->
+                                 <h6>BACKGROUND / Market overview research - needs to be data driven</h6>
+                                 <section>
+                                     <div class="row">
+                                         <div class="col-md-12">
+                                             <div class="form-group">
+                                                 <label for="participants4">What is the industry that you are in?</label>
+                                                 <select class="custom-select form-control required" id="question_4_no_1-1" name="location">
+                                                     <option value="">Select industry</option>
+                                                     <option value="Selected">Platform</option>
+                                                     <option value="Rejected">Cyptocurrency</option>
+                                                     <option value="Call Second-time">Business Service</option>
+                                                     <option value="Call Second-time">Investment</option>
+                                                     <option value="Call Second-time">Software</option>
+                                                     <option value="Call Second-time">Smart Contact</option>
+                                                 </select>
+                                             </div>
+                                         </div>
+                                         <div class="col-md-12">
+                                             <div class="form-group">
+                                                 <label for="question4_no_1">How did your industry develop in the last years?</label>
+                                                 <textarea name="question4_no_1" id="question_4_no_1-2" rows="4" class="form-control" ></textarea>
+                                             </div>
+                                         </div>
+                                         <div class="col-md-12">-
+                                             <div class="form-group">
+                                                 <label class="control-label" for="question_4_no_2">What are your industry top 3 macro trends that are changing the industry?</label><br>
+                                                 <input class="form-control input-md" required id="question_4_no_2_title_1" name="question_4_no_2_title_1" type="text" placeholder="Title">                                                <br>
+                                                 <input class="form-control input-md" required id="question_4_no_2_description_1" name="question_4_no_2_description_1" type="text" placeholder="Description"><br>
+                                                 
+                                                     <label>Support Material</label>
+                                                     <div class="input-group">
+                                                       <span class="input-group-btn">
+                                                           <span class="btn btn-default btn-file settings-menu">
+                                                 Browse… <input type="file" class="form-control" id="question_4_no_2_image_1" name="question_4_no_2_image_1" multiple>
+                                                           </span>
+                                                       </span>
+                                                       <input type="text" class="form-control" readonly>
+                                                     </div>
+                                                   <br>
+
+                                                   <input class="form-control input-md" required id="question_4_no_2_title_2" name="question4_no_2_title_2" type="text" placeholder="Title">                                                <br>
+                                                   <input class="form-control input-md" required id="question_4_no_2_description_2" name="question4_no_2_description_2" type="text" placeholder="Description"><br>
+                                                   <div class="form-group">
+                                                       <label>Support Material</label>
+                                                       <div class="input-group">
+                                                         <span class="input-group-btn">
+                                                             <span class="btn btn-default btn-file settings-menu">
+                                                                   Browse… <input type="file" id="question_4_no_2_image_2">
+                                                             </span>
+                                                         </span>
+                                                         <input type="text" class="form-control" readonly>
+                                                       </div>
+                                                    </div><br>
+
+                                                    <input class="form-control input-md" required id="question_4_no_2_title_3" name="question4_no_2_title_3" type="text" placeholder="Title"><br>
+                                                    <input class="form-control input-md" required id="question_4_no_2_description_3" name="question4_no_2_description_3" type="text" placeholder="Description"><br>
+                                                    <div class="form-group">
+                                                         <label>Support Material</label>
+                                                         <div class="input-group">
+                                                           <span class="input-group-btn">
+                                                               <span class="btn btn-default btn-file settings-menu">
+                                                                     Browse… <input type="file" id="question_4_no_2_image_3">
+                                                               </span>
+                                                           </span>
+                                                           <input type="text" class="form-control" readonly>
+                                                         </div>
+                                                    </div><br>
+                                             </div>
+                                         </div>
+                                             
+                                         <div class="col-md-12">
+                                             <div class="form-group">
+                                                 <label for="question_4_no_3">Who are the key stakeholders in your industry? Whats their role?</label>
+                                                 <input class="form-control input-md" required id="question_4_no_3_stakeholder_1" name="question4_no_3_stakeholder_1" type="text" placeholder="Stakeholder 1"><br>
+                                                 <input class="form-control input-md" required id="question4_no_3_stakeholder_1" name="question4_no_3_job_or_role_1" type="text" placeholder="Job or Role 1"><br>
+
+                                                 <input class="form-control input-md"  id="question_4_no_3_incentive_or_gain_2" name="question4_no_3_incentive_or_gain_2" type="text" placeholder="Stakeholder incentive or gain 2"><br>
+                                                 <input class="form-control input-md"  id="question_4_no_3_stakeholder_2" name="question4_no_3_stakeholder_2" type="text" placeholder="Stakeholder 2"><br>
+                                                 <input class="form-control input-md"  id="question4_no_3_stakeholder_2" name="question4_no_3_job_or_role_2" type="text" placeholder="Job or Role 2"><br>
+
+                                                 <input class="form-control input-md"  id="question_4_no_3_incentive_or_gain_3" name="question4_no_3_incentive_or_gain_3" type="text" placeholder="Stakeholder incentive or gain 3"><br>
+                                                 <input class="form-control input-md"  id="question_4_no_3_stakeholder_3" name="question4_no_3_stakeholder_3" type="text" placeholder="Stakeholder 3"><br>
+                                                 <input class="form-control input-md"  id="question_4_no_3_job_or_role_3" name="question4_no_3_job_or_role_3" type="text" placeholder="Job or Role 3"><br>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </section>
+
+                                <!-- Step 5 -->
+                                <h6>INDUSTRY PAINPOINTS</h6>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="question_5_no_1">What are currently the problems / painpoints of your industry? What are the current solutions being worked on? Which solutions do you suggest?</label>
+                                                <input class="form-control input-md" required id="question_5_no_1-1" name="question_5_no_1-1" type="text" placeholder="Problem 1"><br>
+                                                <input class="form-control input-md" id="question_5_no_1-2" name="question_5_no_1-2" type="text" placeholder="Problem 2"><br>
+                                                <input class="form-control input-md" id="question_5_no_1-3" name="question_5_no_1-3" type="text" placeholder="Problem 3"><br>
+                                                <input class="form-control input-md" id="question_5_no_1-3_description" name="question_5_no_1-3_description" type="text" placeholder="Problem 3 Description"><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- Step 6 -->
+                                <h6> COMPANY BRIEF</h6>
+                                <section>
+                                    <!-- <h1>Coming Soon!!</h1> -->
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_6_no_1">When was your company established?</label>
+                                                <input class="form-control input-md" required id="question_6_no_1" name="question_6_no_1" type="text" placeholder="answer">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_6_no_2">Pls download this excel file and fill out your P&L figures</label>
+                                                <input class="form-control input-md" required id="question_6_no_2" name="question_6_no_2" type="text" placeholder="answer">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_6_no_3">What is your current solution on the market?</label>
+                                                <input class="form-control input-md" required id="question_6_no_3" name="question_6_no_3" type="text" placeholder="answer">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_6_no_4">What is your current USP / competitive advantage vs other market players, if any?</label>
+                                                <input class="form-control input-md" required id="question_6_no_4" name="question_6_no_4" type="text" placeholder="answer">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_6_no_5">How can things be better? Opportunities?</label>
+                                                <input class="form-control input-md" required id="question_6_no_5" name="question_6_no_5" type="text" placeholder="answer">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_6_no_6">Any Press releases or media mentions you received?</label>
+                                                <textarea name="question_6_no_6" id="question_6_no_6" rows="4" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_6_no_7">What are the existing partnerships you have?</label>
+                                                <input class="form-control input-md" required id="question_6_no_7-1" name="question_6_no_7-1" type="text" placeholder="partnerships 1"><br>
+                                                <input class="form-control input-md" required id="question_6_no_7-2" name="question_6_no_7-2" type="text" placeholder="partnerships 2"><br>
+                                                <input class="form-control input-md" required id="question_6_no_7-3" name="question_6_no_7-3" type="text" placeholder="partnerships 3">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_6_no_8">Example of client / customer problems that was solved with your current solution</label>
+                                                <input class="form-control input-md" required id="question_6_no_8" name="question_6_no_8" type="text" placeholder="answer">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_6_no_9">Are you using an existing blockchain protocol (e.g Ethereum, or are you developing your own protocol?</label>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input class="form-check-input" type="radio" id="radio_1_question_6_no_9" name="radio_question_6_no_9" value="Yes">
+                                                        <label for="radio_1_question_6_no_9">Yes</label>
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input class="form-check-input" type="radio" id="radio_2_question_6_no_9" name="radio_question_6_no_9" value="No">
+                                                        <label for="radio_2_question_6_no_9">No</label>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Step 7 -->
+                                <h6>BLOCKCHAIN ADVANTAGES</h6>
+                                <section>
+                                    <!-- <h1>Coming Soon!!</h1> -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_7_no_1">Is any of your existing competitors working on a blockchain application or migration?</label>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input class="form-check-input" type="radio" id="radio_1_question7_no_1" name="question_7_no_1" value="Yes">
+                                                        <label for="radio_1_question7_no_1">Yes</label>
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input class="form-check-input" type="radio" id="radio_2_question7_no_1" name="question_7_no_1" value="No">
+                                                        <label for="radio_2_question7_no_1">No</label>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_7_no_2">Any new company working on a solution based on blockchain in your field of business?</label>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input class="form-check-input" type="radio" id="radio_1_question7_no_2" name="question_7_no_2" value="Yes">
+                                                        <label for="radio_1_question7_no_2">Yes</label>
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input class="form-check-input" type="radio" id="radio_2_question7_no_2" name="question_7_no_2" value="No">
+                                                        <label for="radio_2_question7_no_2">No</label>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_7_no_3">Which blockchain benefits do impact your idea/ product/ existing outlined problems in your market?</label>
+                                                <textarea name="question_7_no_3" id="question_7_no_3" rows="4" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Step 8 -->
+                                <h6>BLOCKCHAIN MIGRATION (ONLY FOR EXISTING BUSINESSES)</h6>
+                                <section>
+                                    <!-- <h1>Coming Soon!!</h1> -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_8_no_1">With the change to blockchain, will you need to change anything at your existing modules/ ecoystem?</label>
+                                                <input class="form-control input-md" required id="question_8_no_1" name="question_8_no_1" type="text" placeholder="answer">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_8_no_2">How do you plan to migrate existing product offerings or modules to the blockchain?</label>
+                                                <input class="form-control input-md" required id="question_8_no_2" name="question_8_no_2" type="text" placeholder="answer">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </form>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                </div>
+                <!-- /.tab-pane -->
+                <div class="tab-pane" id="step_3">
+                    <!-- Validation wizard -->
+                    <div class="box box-default">
+                        <div class="box-body wizard-content">
+                            <form action="#" class="validation-wizard3 wizard-circle" id="wizard3">
+                                <!-- Step 9 -->
+                                <h6>VALUE PROPOSITION</h6>
+                                <section>
+                                    <!-- <h1>Coming Soon!!</h1> -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_9_no_1">What is your value proposition?</label>
+                                                <textarea name="question_9_no_1" id="question_9_no_1" rows="4" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Step 10 -->
+                                <h6>TOKEN ECONOMICS</h6>
+                                <section>
+                                    <!-- <h1>Coming Soon!!</h1> -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_10_no_1">What is your value proposition?</label><br>
+                                                <!-- <textarea name="question_10_no_1" id="question_10_no_1" rows="4" class="form-control"></textarea> -->
+                                                Profit or Fee: Tokens with this right entitle holders to a portion of fees or profits from using the network. This is similar
+                                                to a company stock, though these do not necessarily give voting rights<br>Access:
+                                                Just like paying a toll to use a freeway, the token can be the pay-per-use
+                                                rail for getting on the blockchain infrastructure or for using the product.
+                                                This also ensures that users have skin in the game. It can include running
+                                                smart contracts to perform a specific function, paying for a security deposit,
+                                                or plain usage fees in the form of transaction fees or other metered metric.<br>Payment:
+                                                The token is a very efficient payment method and transaction engine of choice.
+                                                This is key for enabling frictionless transactions inside these closed environments.
+                                                Tokens offer a much lower barrier for processing end-to-end transactions
+                                                inside a given market.<br> Governance: Tokens with this right entitle holders
+                                                to influence the direction of the platform or protocol: vendor selection,
+                                                additional features, even some basic protocol decisions. This is a basic
+                                                feature of Distributed Autonomous Organizations (DAOs).<br> Value Exchange:
+                                                The token is also an atomic unit of value exchange inside a particular market
+                                                or app, resulting in the creation of a transactional economy between buyers
+                                                and sellers. This consists of features that allow users to earn value and
+                                                to spend it on services that are internal to the inherent ecosystem. They
+                                                can earn it by doing active work (real work and actions), or passive work
+                                                (e.g. sharing data).<br> Contribution: Many tokens allow holders to play
+                                                some kind of role in maintaining the network. This can (but not must!) involve
+                                                creating block for a blockchain for which the most common type of token with
+                                                this right is any token in a proof-of-stake system where tokenholders can
+                                                become block validators. These rights are also not ‘governance’ rights: they
+                                                don’t determine the overall direction of the platform or features of the
+                                                protocol itself but instead are actions on the platform about specific users.
+                                                <br>
+                                                <label for="uestion_10_no_1-2">Token Role</label>
+                                                <input class="form-control input-md" required id="question_10_no_1-1" name="question_10_no_1-1" type="text" placeholder="Token role 1">
+
+                                                <label for="uestion_10_no_1-2">What is the industry that you are in?</label>
+                                                <select class="custom-select form-control required" id="uestion_10_no_1-2" name="role_type">
+                                                            <option value="">Select Role Type</option>
+                                                            <option value="Selected">Platform</option>
+                                                            <option value="Rejected">Cyptocurrency</option>
+                                                            <option value="Call Second-time">Business Service</option>
+                                                            <option value="Call Second-time">Investment</option>
+                                                            <option value="Call Second-time">Software</option>
+                                                            <option value="Call Second-time">Smart Contact</option>
+                                                </select><br>
+
+                                                <label for="question_10_no_1-3">Feature</label>
+                                                <select class="custom-select form-control required" id="question_10_no_1-3" name="feature">
+                                                            <option value="">Select Role Type</option>
+                                                            <option value="Selected">Platform</option>
+                                                            <option value="Rejected">Cyptocurrency</option>
+                                                            <option value="Call Second-time">Business Service</option>
+                                                            <option value="Call Second-time">Investment</option>
+                                                            <option value="Call Second-time">Software</option>
+                                                            <option value="Call Second-time">Smart Contact</option>
+                                                </select><br>
+
+                                                <label class="control-label" for="question_10_no_1-4">Affected Stakeholders</label>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input class="form-check-input" type="radio" id="radio_1_question_10_no_1-4" name="radio_question_10_no_1-4" value="Choice 1">
+                                                        <label for="radio_1_question_10_no_1-4">Choice 1</label>
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input class="form-check-input" type="radio" id="radio_2_question_10_no_1-4" name="radio_question_10_no_1-4" value="Choice 2">
+                                                        <label for="radio_2_question_10_no_1-4">Choice 2</label>
+                                                    </label>
+                                                </div>
+                                                <label class="control-label" for="question_10_no_1">Description</label>
+                                                <input class="form-control input-md" required id="question_10_no_1-4" name="question_10_no_1-4" type="text" placeholder="answer">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Step 11 -->
+                                <h6>Market Size & Tokenized Economy Valuation</h6>
+                                <section>
+                                    <!-- <h1>Coming Soon!!</h1> -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_11_no_1">What is the annual market size (AMS) of your industry  in USD millions (MUSD)?</label>
+                                                <input class="form-control input-md" required id="question_11_no_1" name="question_11_no_1" type="text" placeholder="answer">
+
+                                                <label class="control-label" for="question_11_no_2">From the AMS, what is the percentage that can be migrated / disrupted by the blockchain in MUSD? Lets call this blockchain disruption rate.</label>
+                                                <input class="form-control input-md" required id="question_11_no_2" name="question_11_no_2" type="number" placeholder="answer">
+
+                                                <label class="control-label" for="question_11_no_3">Has the industry been already disrupted with other blockchain projects? What is the existing blockchain penetration?</label>
+                                                <input class="form-control input-md" required id="question_11_no_3" name="question_11_no_3" type="text" placeholder="answer">
+
+                                                <label class="control-label" for="question_11_no_4">How much market share do you think your project can grab from the TAMS?</label>
+                                                <input class="form-control input-md" required id="question_11_no_4" name="question_11_no_4" type="text" placeholder="answer">
+
+                                                <label class="control-label" for="question_11_no_5">What is the market share you are going to grab in the next 2 years?</label>
+                                                <input class="form-control input-md" required id="question_11_no_5" name="question_11_no_5" type="number" placeholder="answer">
+
+                                                <label class="control-label" for="question_11_no_6">Total token supply</label>
+                                                <input class="form-control input-md" required id="question_11_no_6" name="question_11_no_6" type="number" placeholder="answer">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Step 12 -->
+                                <h6>Revenue Streams</h6>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_12_no_1">How are you going to monetize your product?</label>
+                                                <input class="form-control input-md" required id="question_12_no_1" name="question_12_no_1" type="text" placeholder="Revenue stream 1 Title"><br>
+
+                                                <label for="question_12_no_1-2">Revenue type (Ad-based revenue (CPA), Ad-based revenue (CPC),Ad-based revenue (CPM), Affiliate commission (% of goods sold), Subscription / Membership (monthly),Subscription / Membership (quarterly) ,Subscription / Membership (annual) Pay per Use, Sponsorship</label>
+                                                <select class="custom-select form-control required" id="question_12_no_1-2" name="revenue">
+                                                            <option value="">Select Revenue Type</option>
+                                                            <option value="Selected">Platform</option>
+                                                            <option value="Rejected">Cyptocurrency</option>
+                                                            <option value="Call Second-time">Business Service</option>
+                                                            <option value="Call Second-time">Investment</option>
+                                                            <option value="Call Second-time">Software</option>
+                                                            <option value="Call Second-time">Smart Contact</option>
+                                                </select><br><br>
+
+                                                <input class="form-control input-md" required id="question_12_no_4" name="question_12_no_4" type="text" placeholder="Description"><br>
+
+                                                <label for="question_12_no_1-3">Stakeholder charged</label>
+                                                <select class="custom-select form-control required" id="question_12_no_1-3" name="stakeholder">
+                                                            <option value="">Select Revenue Type</option>
+                                                            <option value="Selected">Platform</option>
+                                                            <option value="Rejected">Cyptocurrency</option>
+                                                            <option value="Call Second-time">Business Service</option>
+                                                            <option value="Call Second-time">Investment</option>
+                                                            <option value="Call Second-time">Software</option>
+                                                            <option value="Call Second-time">Smart Contact</option>
+            
+                                                </select><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Step 13 -->
+                                <h6>Go-To-Market (GTM)</h6>
+                                <section>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="control-label" for="question_12_no_1">How do you want to promote your product?</label>
+                                                <input class="form-control input-md" required id="question_12_no_1" name="question_12_no_1" type="text" placeholder="Revenue stream 1 Title"><br>
+
+                                                <label for="question_12_no_2">Channel type (Email, Personal, Telesales,Online, Mobile SMS, Retail, Agents / Brokers, Distributors)</label>
+                                                <select class="custom-select form-control required" id="question_12_no_2" name="revenue">
+                                                            <option value="">Select Revenue Type</option>
+                                                            <option value="Selected">Platform</option>
+                                                            <option value="Rejected">Cyptocurrency</option>
+                                                            <option value="Call Second-time">Business Service</option>
+                                                            <option value="Call Second-time">Investment</option>
+                                                            <option value="Call Second-time">Software</option>
+                                                            <option value="Call Second-time">Smart Contact</option>
+                                                </select><br><br>
+
+                                                <input class="form-control input-md" required id="question_12_no_2_description" name="question_12_no_2_description" type="text" placeholder="Description"><br>
+
+                                                <label for="question_12_no_3">Choose stakeholders</label>
+                                                <select class="custom-select form-control required" id="question_12_no_3" name="stakeholder">
+                                                            <option value="">Select Revenue Type</option>
+                                                            <option value="Selected">Platform</option>
+                                                            <option value="Rejected">Cyptocurrency</option>
+                                                            <option value="Call Second-time">Business Service</option>
+                                                            <option value="Call Second-time">Investment</option>
+                                                            <option value="Call Second-time">Software</option>
+                                                            <option value="Call Second-time">Smart Contact</option>
+                                                </select><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </form>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                </div>
+
+                <div class="tab-pane" id="step_4">
+                    <!-- Validation wizard -->
+                    <div class="box box-default">
+                        <div class="box-body wizard-content">
+                            <form action="#" class="validation-wizard4 wizard-circle" id="wizard4">
+                                <!-- Step 14 -->
+                                <h6>Technical</h6>
+                                <section>
+                                    <div class='row'>
+                                        <div class='col-md-12'>
+                                            <div class="form-group">
+                                                    <label class="control-label" for="question_14_no_1">Which protocol blockchain are you building your ecosystem on?</label>
+                                                    <div class="radio">
+                                                            <label>
+                                                                <input class="form-check-input" type="radio" id="radio_question_14_no_1" name="question_14_no_1" value="Native Blockchain Protocol">
+                                                                <label for="radio_question_14_no_1">Native Blockchain Protocol</label>
+                                                            </label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                            <label class="control-label">What is a Native Blockchain Protocol</label><br>
+                                                            Protocol: Tokens with independent Network and native Blockchain Protocol (e.g. Ethereum, Bitcoin)<br>
+                                                            - Block Generation Time<br>
+                                                            - Information Storage<br>
+                                                            - Access Control<br>
+                                                            - Consensus Method<br>
+                                                            - Distributed Computation (centralized, decentralized, Distributed)<br>
+                                                    </div>
+
+                                                    <div class="radio">
+                                                            <label>
+                                                                <input class="form-check-input" type="radio" id="radio_question_14_no_2" name="question_14_no_1" value="We are a new idea">
+                                                                <label for="radio_question_14_no_2">Layer2 protocol - Layer22 protocols are protocols on top of an existing native protocol for example Ethereum or NEO.</label>
+                                                            </label>
+                                                    </div>
+
+                                                    <div class="radio">
+                                                            <label>
+                                                                <input class="form-check-input" type="radio" id="radio_question_14_no_3" name="question_14_no_1" value="Native Blockchain Protocol">
+                                                                <label for="radio_question_14_no_3">Dapps - Decentralized apps are apps on top of an existing protocol for example Ethereum or NEO</label>
+                                                            </label>
+                                                    </div>
+                                                    <div class="form-group">
+                                                            <label class="control-label">What is a Dapps</label><br>
+                                                            DApp Tokens: Tokens implemented on top of another Blockchain Protocol and Network (e.g. ERC20 Tokens)<br>
+                                                    </div>
+                                            </div>
+                                            <div class="form-group">
+                                                    <label class="control-label" for="question_14_no_2">Which protocol are you going to use?</label>
+                                                    <div class="radio">
+                                                            <label>
+                                                                <input class="form-check-input" type="radio" id="radio_question_14_no_4" name="question_14_no_2" value="Ethereum">
+                                                                <label for="radio_question_14_no_4">Ethereum</label>
+                                                            </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                            <label>
+                                                                <input class="form-check-input" type="radio" id="radio_question_14_no_5" name="question_14_no_2" value="NEO">
+                                                                <label for="radio_question_14_no_5">NEO</label>
+                                                            </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                            <label>
+                                                                <input class="form-check-input" type="radio" id="radio_question_14_no_6" name="question_14_no_2" value="EOS">
+                                                                <label for="radio_question_14_no_6">EOS</label>
+                                                            </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                            <label>
+                                                                <input class="form-check-input" type="radio" id="radio_question_14_no_7" name="question_14_no_2" value="others">
+                                                                <label for="radio_question_14_no_7">others</label>
+                                                            </label>
+                                                    </div>
+                                            </div>
+                                            <div class="form-group">
+                                                    <label class="control-label" for="question_14_no_3">How do you use the blockchain in your ecosystem?</label>
+                                                    <input class="form-control input-md" required id="question_14_no_3" name="question_14_no_3" type="text" placeholder="answer"><br>
+                                            </div>
+                                            <div class="form-group">
+                                                    <label class="control-label" for="question_14_no_4">What is your technical infrastructure of the Product?</label>
+                                                    <input class="form-control input-md" required id="question_14_no_4" name="question_14_no_4" type="text" placeholder="answer"><br>
+                                            </div>
+                                            <div class="form-group">
+                                                    <label class="control-label" for="question_14_no_5">What are the main components / modules / features of your project?</label>
+                                                    <input class="form-control input-md" required id="question_14_no_5-1" name="question_14_no_5-1" type="text" placeholder="Module 1 Title"><br>
+                                                    <input class="form-control input-md" required id="question_14_no_5-2" name="question_14_no_5-2" type="text" placeholder="Module 1 Description"><br>
+                                                    
+                                                    <div class="input-group">
+                                                      <span class="input-group-btn">
+                                                          <span class="btn btn-default btn-file settings-menu">
+                                                                Module 1 technical flow / architecture (Image) <input type="file" id="question_14_no_5-3">
+                                                          </span>
+                                                      </span>
+                                                      <input type="text" class="form-control" readonly>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <!-- Step 15 -->
+                                <h6>Project Roadmap</h6>
+                                <section>
+                                    <div class="form-group">
+                                            <label class="control-label" for="question_15_no_1">Roadmap</label>
+                                            <input class="form-control input-md" required id="question_15_no_1-1" name="question_15_no_1-1" type="text" placeholder="Roadmap milestone 1"><br>
+                                            <input class="form-control input-md" required id="question_15_no_1-2" name="question_15_no_1-2" type="text" placeholder="Roadmap milestone 1 description"><br>
+                                            <input class="form-control input-md" required id="question_15_no_1-3" name="question_15_no_1-3" type="date" placeholder="Date"><br>
+
+                                            <input class="form-control input-md" required id="question_15_no_1-4" name="question_15_no_1-4" type="text" placeholder="Roadmap milestone 2"><br>
+                                            <input class="form-control input-md" required id="question_15_no_1-5" name="question_15_no_1-5" type="text" placeholder="Roadmap milestone 2 description"><br>
+                                            <input class="form-control input-md" required id="question_15_no_1-6" name="question_15_no_1-6" type="date" placeholder="Date"><br>
+
+                                            <input class="form-control input-md" required id="question_15_no_1-7" name="question_15_no_1-7" type="text" placeholder="Roadmap milestone 3"><br>
+                                            <input class="form-control input-md" required id="question_15_no_1-8" name="question_15_no_1-8" type="text" placeholder="Roadmap milestone 3 description"><br>
+                                            <input class="form-control input-md" required id="question_15_no_1-9" name="question_15_no_1-9" type="date" placeholder="Date"><br>
+                                    </div>
+                                </section>
+
+                                <!-- Step 16 -->
+                                <h6>Token Sale</h6>
+                                <section>
+                                        <div class="form-group">
+                                                <label class="control-label" for="question_16_no_1">TOKEN SALE DATES</label><br>
+                                                <p>Token announcement date</p>
+                                                <input class="form-control input-md" required id="question_16_no_1-1" name="question_16_no_1-1" type="date" placeholder="Token announcement date"><br>
+                                                <p>Pre-sale start date</p>
+                                                <input class="form-control input-md" required id="question_16_no_1-2" name="question_16_no_1-2" type="date" placeholder="Pre-sale start date"><br>
+                                                <p>Token sale start date (Pre-sale end date)</p>
+                                                <input class="form-control input-md" required id="question_16_no_1-3" name="question_16_no_1-3" type="date" placeholder="Token sale start date (Pre-sale end date)"><br>
+                                                <p>Token sale end date</p>
+                                                <input class="form-control input-md" required id="question_16_no_1-4" name="question_16_no_1-4" type="date" placeholder="Token sale end date"><br>
+                                        </div>
+
+                                        <div class="form-group">
+                                                <label class="control-label" for="question_16_no_2">CAPS</label>
+                                                <input class="form-control input-md" required id="question_16_no_2-1" name="question_16_no_2-1" type="number" placeholder="Min. tokens for sale (Soft Cap)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_2-2" name="question_16_no_2-2" type="number" placeholder="Total tokens for sale (Hard Cap)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_2-3" name="question_16_no_2-3" type="number" placeholder="Max Private/Institutional Sale in %"><br>
+                                                <input class="form-control input-md" required id="question_16_no_2-4" name="question_16_no_2-4" type="number" placeholder="Min. ticket for private sale per buyer"><br>
+
+                                                <input class="form-control input-md" required id="question_16_no_2-5" name="question_16_no_2-5" type="number" placeholder="Min. ticket for token pre-sale per buyer"><br>
+                                                <input class="form-control input-md" required id="question_16_no_2-6" name="question_16_no_2-6" type="number" placeholder="Min. ticket for token public sale per buyer"><br>
+                                                <input class="form-control input-md" required id="question_16_no_2-7" name="question_16_no_2-7" type="number" placeholder="Max. ticket for private sale per buyer"><br>
+                                                <input class="form-control input-md" required id="question_16_no_2-8" name="question_16_no_2-8" type="number" placeholder="Max. ticket for token pre-sale per buyer"><br>
+                                                <input class="form-control input-md" required id="question_16_no_2-9" name="question_16_no_2-9" type="number" placeholder="Max. ticket for token sale per buyer"><br>
+                                        </div>
+
+                                        <div class="form-group">
+                                                <label class="control-label" for="question_16_no_3">Currency</label>
+                                                <label for="question_16_no_3-1">Accepted fiat currencies (EUR, USD, GBP, etc)</label>
+                                                <select class="custom-select form-control required" id="question_16_no_3-1" name="question_16_no_3-1">
+                                                            <option value="">Select Currencies</option>
+                                                            <option value="EUR">EUR</option>
+                                                            <option value="USD">USD</option>
+                                                            <option value="GBP">GBP</option>
+                                                            <option value="ETC">ETC</option>
+                                                </select><br><br>
+
+                                                <label for="question_16_no_3-2">Accepted cryptocurrencies (ETH, BTC)</label>
+                                                <select class="custom-select form-control required" id="question_16_no_3-2" name="question_16_no_3-2">
+                                                        <option value="">Select Accepted cryptocurrencies (ETH, BTC)</option>
+                                                        <option value="ETH">ETH</option>
+                                                        <option value="BTC">BTC</option>
+                                                </select><br><br>
+                                                <input class="form-control input-md" required id="question_16_no_3-3" name="question_16_no_3-3" type="number" placeholder="Total token supply"><br>
+                                                
+                                                <label for="question_16_no_3-4">Emission rate type</label>
+                                                <select class="custom-select form-control required" id="question_16_no_3-4" name="question_16_no_3-4">
+                                                        <option value="">Select Emission rate type</option>
+                                                        <option value="ETH">ETH</option>
+                                                        <option value="BTC">BTC</option>
+                                                </select><br><br>
+
+                                                <input class="form-control input-md" required id="question_16_no_3-5" name="question_16_no_3-5" type="number" placeholder="Annual token supply increase / Emission rate (%)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_3-6" name="question_16_no_3-6" type="number" placeholder="Emission rate"><br>
+                                                <input class="form-control input-md" required id="question_16_no_3-7" name="question_16_no_3-7" type="number" placeholder="Token Private-Sale Price (in USD or ETH)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_3-8" name="question_16_no_3-8" type="number" placeholder="Token Pre-Sale Price (in USD or ETH)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_3-9" name="question_16_no_3-9" type="number" placeholder="Token Public Sale Price (in USD or ETH)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_3-10" name="question_16_no_3-10" type="number" placeholder="Tiered pricingTiered ICO bonus (D1, W1, W2, etc)"><br>
+                                        </div>
+                                        <div class="form-group">
+                                                <label class="control-label" for="question_16_no_4">TOKEN ALLOCATION (in %)</label><br>
+                                                <input class="form-control input-md" required id="question_16_no_4-1" name="question_16_no_4-1" type="number" placeholder="Team Members (1-2 digit number %)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_4-2" name="question_16_no_4-2" type="number" placeholder="Management (1-2 digit number %)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_4-3" name="question_16_no_4-3" type="number" placeholder="Token Public Sale (1-2 digit number %)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_4-4" name="question_16_no_4-4" type="number" placeholder="Advisors (1-2 digit number %)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_4-5" name="question_16_no_4-5" type="number" placeholder="Private Investors (1-2 digit number %)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_4-6" name="question_16_no_4-6" type="number" placeholder="Airdrops / Bounties / Contributors (1-2 digit number %)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_4-7" name="question_16_no_4-7" type="number" placeholder="Reserve (1-2 digit number %)"><br>
+
+                                        </div>
+
+                                        <div class="form-group">
+                                                <label class="control-label" for="question_16_no_5">TOKEN LOCKUP PERIOD</label><br>
+                                                <input class="form-control input-md" required id="question_16_no_5-1" name="question_16_no_5-1" type="number" placeholder="Team Members (number in months)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_5-2" name="question_16_no_5-2" type="number" placeholder="Management (number in months)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_5-3" name="question_16_no_5-3" type="number" placeholder="Advisors (number in months)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_5-4" name="question_16_no_5-4" type="number" placeholder="Team & management & advisors: % of tokens locked up (%)"><br>
+                                                <label for="question_16_no_5-5">Team, management, & advisors: Vesting available</label>
+                                                <select class="custom-select form-control required" id="question_16_no_5-5" name="question_16_no_5-5">
+                                                        <option value="">Select....</option>
+                                                        <option value="daily">daily</option>
+                                                        <option value="weekly">weekly</option>
+                                                        <option value="monthly">monthly</option>
+                                                        <option value="quarterly">quarterly</option>
+                                                        <option value="every_6_months">every 6 months</option>
+                                                        <option value="annually">annually</option>
+                                                        <option value="no_vesting">no vesting</option>
+                                                </select><br><br>
+                                                <input class="form-control input-md" required id="question_16_no_5-6" name="question_16_no_5-6" type="number" placeholder="Token Sale (number in months)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_5-7" name="question_16_no_5-7" type="number" placeholder="Token sale: % of tokens locked up"><br>
+
+                                                <label for="question_16_no_5-8">Token sale: Vesting available</label>
+                                                <select class="custom-select form-control required" id="question_16_no_5-8" name="question_16_no_5-8">
+                                                        <option value="">Select....</option>
+                                                        <option value="Monthly">Monthly</option>
+                                                        <option value="quarterly">quarterly</option>
+                                                        <option value="no_available">no available</option>
+                                                </select><br><br>
+
+                                                <input class="form-control input-md" required id="question_16_no_5-9" name="question_16_no_5-9" type="number" placeholder="Private Investors (number in months)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_5-10" name="question_16_no_5-10" type="number" placeholder="Private investors: % of tokens locked up"><br>
+
+                                                <label for="question_16_no_5-11">Private investors: Vesting available (Monthly, quarterly, yearly, not available)</label>
+                                                <select class="custom-select form-control required" id="question_16_no_5-11" name="question_16_no_5-11">
+                                                        <option value="">Select....</option>
+                                                        <option value="Monthly">Monthly</option>
+                                                        <option value="quarterly">quarterly</option>
+                                                        <option value="yearly">yearly</option>
+                                                        <option value="no_available">no available</option>
+                                                </select><br><br>
+                                                <input class="form-control input-md" required id="question_16_no_5-12" name="question_16_no_5-12" type="number" placeholder="Airdrops / Bounties / Contributors (number in months)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_5-13" name="question_16_no_5-13" type="number" placeholder="Aridrops & Bounties: % of tokens locked up (%)"><br>
+
+                                                <label for="question_16_no_5-11">Aridrops & Bounties: Vesting available (Monthly, quarterly, yearly, not available)</label>
+                                                <select class="custom-select form-control required" id="question_16_no_5-14" name="question_16_no_5-14">
+                                                        <option value="">Select....</option>
+                                                        <option value="Monthly">Monthly</option>
+                                                        <option value="quarterly">quarterly</option>
+                                                        <option value="yearly">yearly</option>
+                                                        <option value="no_available">no available</option>
+                                                </select><br><br>
+
+                                                <input class="form-control input-md" required id="question_16_no_5-15" name="question_16_no_5-15" type="number" placeholder="Reserve (number in months)"><br>
+                                                
+                                        </div>
+                                        <div class="form-group">
+                                                <label class="control-label" for="question_16_no_6">USE OF PROCEEDS (%)</label><br>
+                                                <input class="form-control input-md" required id="question_16_no_6-1" name="question_16_no_6-1" type="number" placeholder="Product development (%)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_6-2" name="question_16_no_6-2" type="number" placeholder="Marketing (%)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_6-3" name="question_16_no_6-3" type="number" placeholder="Operations (%)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_6-4" name="question_16_no_6-4" type="number" placeholder="G&A (%)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_6-5" name="question_16_no_6-5" type="number" placeholder="International Expansion (%)"><br>
+                                                <input class="form-control input-md" required id="question_16_no_6-6" name="question_16_no_6-6" type="number" placeholder="Others (%)"><br>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label" for="question_16_no_7">TOKEN DISTRIBUTION</label><br>
+                                            <label for="question_16_no_7-1">Excluded countries</label>
+                                            <select class="custom-select form-control required" id="question_16_no_7-1" name="question_16_no_7-1">
+                                                    <option value="">Select....</option>
+                                                    <option value="Monthly">Thai</option>
+                                                    <option value="quarterly">America</option>
+                                                    <option value="yearly">Italy</option>
+                                                    <option value="no_available">Laos</option>
+                                            </select><br><br>
+                                            <p>Distribution date</p>
+                                            <input class="form-control input-md" required id="question_16_no_7-2" name="question_16_no_7-2" type="date" placeholder="Token sale end date"><br>
+
+                                            <label for="question_16_no_7-1">Token sale token appreciation mechanics</label>
+                                            <select class="custom-select form-control required" id="question_16_no_7-3" name="question_16_no_7-3">
+                                                    <option value="">Select....</option>
+                                                    <option value="1">1</option>
+                                            </select><br><br>
+
+                                            <input class="form-control input-md" required id="question_16_no_7-4" name="question_16_no_7-4" type="text" placeholder="Buyback description"><br>
+
+                                    </div>
+                                </section>
+
+                                <h6>Team/ invesors/ advisors</h6>
+                                <section>
+                                    <div class="form-group">
+                                            <label class="control-label" for="question_17_no_1">Team</label>
+                                            <input class="form-control input-md" required id="question_17_no_1-1" name="question_17_no_1-1" type="text" placeholder="Team member name1"><br>
+                                            <input class="form-control input-md" required id="question_17_no_1-2" name="question_17_no_1-2" type="text" placeholder="Team member title"><br>
+                                            <div class="input-group">
+                                                <span class="input-group-btn">
+                                                    <span class="btn btn-default btn-file settings-menu">
+                                                        Team member image <input type="file" id="question_17_no_1-3">
+                                                    </span>
+                                                </span>
+                                                <input type="text" class="form-control" readonly>
+                                              </div>
+
+                                            <input class="form-control input-md" required id="question_17_no_1-4" name="question_17_no_1-4" type="text" placeholder="Team member bio description"><br>
+                                            <input class="form-control input-md" required id="question_17_no_1-5" name="question_17_no_1-5" type="text" placeholder="Team member linkedin"><br>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label class="control-label" for="question_17_no_1">Advisors</label>
+                                        <input class="form-control input-md" required id="question_17_no_2-1" name="question_17_no_2-1" type="text" placeholder="Team member name1"><br>
+                                        <input class="form-control input-md" required id="question_17_no_2-2" name="question_17_no_2-2" type="text" placeholder="Team member title"><br>
+                                        <div class="input-group">
+                                            <span class="input-group-btn">
+                                                <span class="btn btn-default btn-file settings-menu">
+                                                    Advisor image image <input type="file" id="question_17_no_2-3" name="question_17_no_2-3">
+                                                </span>
+                                            </span>
+                                            <input type="text" class="form-control" name="question_17_no_2-3" readonly>
+                                          </div>
+
+                                        <input class="form-control input-md" required id="question_17_no_2-4" name="question_17_no_2-4" type="text" placeholder="Advisor bio description"><br>
+                                        <input class="form-control input-md" required id="question_17_no_2-5" name="question_17_no_2-5" type="text" placeholder="Team member linkedin"><br>
+                                        <input class="form-control input-md" required id="question_17_no_2-6" name="question_17_no_2-6" type="text" placeholder="Advisor icobench profile (optional)"><br>
+                                    </div>
+                                </section>
+                            </form>
+
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                </div>
+                <!-- /.tab-pane -->
+            </div>
+            <!-- /.col -->
+        </div>
+
+    </section>
+    <!-- /.content -->
+
+</div>
+<!-- /.content-wrapper -->
+
+
+    <footer class="main-footer">
+
+      &copy; 2018 <a href="https://www.avesta.io/">Avesta.io</a>. All Rights Reserved.
+    </footer>
+
+
+    <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+    <div class="control-sidebar-bg"></div>
+  </div>
+  <!-- ./wrapper -->
+
+  <!-- jQuery 3 -->
+  <script src="assets/vendor_components/jquery/dist/jquery.min.js"></script>
+
+  <!-- popper -->
+  <script src="assets/vendor_components/popper/dist/popper.min.js"></script>
+
+  <!-- Bootstrap 4.0-->
+  <script src="assets/vendor_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- SlimScroll -->
+  <script src="assets/vendor_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
+  <!-- FastClick -->
+  <script src="assets/vendor_components/fastclick/lib/fastclick.js"></script>
+
+  <!-- Unique_Admin App -->
+  <script src="js/template.js"></script>
+
+  <!-- Unique_Admin for demo purposes -->
+  <script src="js/demo.js"></script>
+
+  <!-- steps  -->
+  <script src="assets/vendor_components/jquery-steps-master/build/jquery.steps.js"></script>
+
+  <!-- validate  -->
+  <script src="assets/vendor_components/jquery-validation-1.17.0/dist/jquery.validate.min.js"></script>
+
+  <!-- Sweet-Alert  -->
+  <script src="assets/vendor_components/sweetalert/sweetalert.min.js"></script>
+
+  <!-- wizard  -->
+  <script src="js/pages/steps.js"></script>
+
+
+
+</body>
+
+</html>
